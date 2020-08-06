@@ -1,0 +1,1050 @@
+
+body{
+    font-family: 'Titillium Web', sans-serif;
+   
+}
+
+/*************ESTILO A LA PÁGINA PRINCIPAL*****************/
+.principal{
+    
+    width: 90%;
+    height: 2230px;
+    margin: 0px auto;
+    border:1px solid rgba(225,225,226,0.8);
+    box-shadow: 0px 0px 10px #ccc;
+    margin-top: 30px;
+}
+
+.contacto{
+
+    height: 1890px;
+   
+    
+}
+
+.quien_soy{
+
+    height: 1300px;
+
+}
+
+
+/*********************HEADER*********************/
+
+header{
+   
+    width: 100%;
+}
+
+#navbar{
+
+    background-color:#f8f8f8;/*LE DAMOS COLOR AL MENÚ*/
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+       
+}
+
+header .menu_logo h1, header .menu_logo img{ 
+   
+    font-size: 22px;
+    font-weight: bold;
+    color:  #6fa744;
+
+    
+}
+
+header .menu_logo img{
+    
+    width: 115px;
+    
+}
+
+/*CENTRAMOS EL LOGO Y H1*/
+.menu_logo_responsive{ 
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+#mariposa_logo{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+
+/*CENTRAMOS LOS COMPOMENTES DEL MENU*/
+.menu_navegacion{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;  
+    justify-content: space-around;
+    padding: 5px;
+    margin: 15px;
+    transition: all 400ms;
+    
+   
+}
+.menu_navegacion img{
+
+    width: 22px;
+    height: 22px;
+    
+
+}
+
+.menu_navegacion:hover{
+
+    background-color: #f8f8f8;
+    box-shadow: 0px 0px 5px  green;
+    cursor: pointer;
+    
+ }
+ 
+.nav-link, .footer-menu a{
+ 
+    color:  #6fa744 !important;
+    font-size: 17px;
+    font-weight: bold;
+   
+}
+
+
+.inicio_contacto{ 
+
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    color: #ffffff !important;
+    background-color:#6fa744;
+    
+}
+
+
+/*************SLIDER****************/
+
+
+.slider_responsive .col {
+    margin-top: 25px;
+    
+
+}
+
+ .carousel-item img {
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    width:100%;
+    height: 400px;
+    max-height: 400px;
+  
+}
+
+
+
+.carousel-caption h4{
+
+    display: block;
+    margin-bottom: 60px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 40px;
+    color: #f8f8f8;
+    letter-spacing: 1.7px;
+
+}
+
+.carousel-caption button{
+
+    margin-bottom: 60px;
+    font-family: 'Titillium Web', sans-serif ;
+    color: #f8f8f8;
+    letter-spacing: 1.7px;
+    font-weight: bold;
+}
+
+.tfno_contacto{
+
+    font-family: sans-serif;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 30px;
+
+    
+}
+
+.tfno_contacto i{
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 32px;
+    color: #6fa744;
+    
+    
+}
+
+.card{
+    
+    width: 97%;
+    height: 350px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center ;
+    align-items: center;
+    background-color: #f8f8f8;
+    align-self: center;
+    
+    
+}
+
+.card h4,.card h2{
+
+    font-weight: bold;
+}
+
+
+.card img{
+   width: 70px;
+
+}
+
+.grua{
+
+    padding-top: 2px;
+}
+
+.button_ayuda{
+
+    transition: all 400ms;
+}
+
+
+.button_ayuda:hover{
+
+    color: #62bfa9;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border:solid 1px #ccc;
+    box-shadow: 1px 1px 4px #ccc inset;
+}
+
+
+.companias{
+
+    margin-bottom: 20px;
+    margin-top: 100px;
+}
+
+#contenedor_aseguradoras{
+    width: 97%;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: 1fr, 1fr;
+    background-color:#f8f8f8;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    margin-bottom: 50px;
+    
+}
+
+.aseguradoras img{
+
+    width: 200px;
+    height: auto;
+    
+}
+
+.aseguradoras a{
+
+    display: block;
+    transition: all 500ms;
+}
+
+.aseguradoras a:hover{
+
+    transform: scale(1.3,1.3);
+    
+}
+
+
+#header_aseguradoras{
+
+    grid-column: 1/6;
+    text-align: center;
+    padding-top: 10px;
+   
+    
+}
+
+
+
+#header_aseguradoras h3{
+
+    font-weight: bold;
+    font-size: 2rem;
+   
+
+}
+
+.aseguradoras{
+    
+    text-align: center;
+    justify-items: center;
+    align-self:center;
+    
+    
+  
+}
+
+
+.carousel{
+
+    min-width: 240px;
+    text-align: center;
+}
+
+
+
+.carousel p{
+
+   font-size: 23px;
+   font-weight: 400px;
+   color: #1a1a1a;
+}
+
+
+.list-inline li{
+
+    font-size: 26px;
+    color:#ffb944;
+}
+
+
+
+
+
+.control_button{
+    background-color: #1a1a1a;
+    opacity: 1;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    padding: 10px;
+    margin: 20px;
+    border: #1a1a1a 1px solid;
+    font-size: 20px;
+    margin-top: 100px;
+    
+}
+
+.testimonios_usuarios img{
+
+    border-radius: 50%;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    
+
+ }
+
+
+.testimonios_usuarios{
+
+    max-width: 240px;
+    margin: 0px auto;
+    text-align: left;
+}
+
+
+
+.testimonios_usuarios h6{
+
+    margin-bottom: 0px;
+}
+
+
+
+.testimonios_usuarios span{
+
+   font-size: 12px;
+}
+
+
+
+footer{
+    
+    width: 97%;
+    height: auto;
+    margin: 0px auto;
+    padding: 70px 0px;
+    text-align: center;
+    
+}
+
+
+
+
+.footer-menu a{
+
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+.logo_footer{
+    
+    width: 17%;
+}
+
+.list-inline .list-inline-item{
+
+    padding: 10px;
+    margin-top: 0px;
+    
+
+}
+
+
+
+.list-inline-item a,footer h6{
+
+    color: #6fa744;
+}
+
+
+
+
+#selector{
+    display: flex;
+    position: fixed;
+    top:85%;
+    left: 90%;
+   
+   
+	
+	
+}
+
+#selector img
+{
+    width: 180px;
+    cursor: pointer;
+	
+}
+
+
+
+
+#formulario .card{
+
+    width: 100%;
+    height: auto;
+    margin-bottom: 5px;
+    padding-bottom: 20px;
+}
+.mapa{
+  
+    margin-top: 70px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-weight: bold;
+    font-size: 2rem;
+
+}
+
+iframe{
+
+    width:100%;
+    height:550px;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+   
+}
+
+textarea {
+    
+    resize: none;
+}
+
+
+
+#sobre_mi img{
+
+    width: 100%;
+    height: auto;
+    margin-top: 8px;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+
+}
+
+.presentacion{
+    
+    text-align: justify;
+    line-height: 35px;
+    font-size: 17px;
+
+}
+
+.presentacion h2{
+   text-align: center;
+   padding-bottom: 15px;
+   font-weight: bold;
+   color: #6fa744;
+   
+  
+
+}
+
+
+/**********RESPONSIVE***************/
+
+@media(max-width:1199px){
+
+    .menu_navegacion{
+
+      
+        padding: 5px;
+        margin: 10px;
+        
+        
+       
+    }
+    .menu_navegacion img{
+    
+        width: 20px;
+        height: 20px;
+        
+    
+    }
+  
+    .nav-link, .footer-menu a{
+     
+        color:  #6fa744 !important;
+        font-size: 15px;
+        font-weight: bold;
+       
+    }
+    
+
+
+    .inicio_contacto{ 
+
+      
+        color: #ffffff !important;
+        background-color:#6fa744;
+        
+    }
+
+
+    #selector{
+       
+        left: 88%;
+       
+       
+        
+        
+    }
+    
+    #selector img
+    {
+        width: 160px;
+        
+        
+    }
+
+    .aseguradoras img{
+
+        width: 150px;
+        height: auto;
+        
+    }
+    
+    .presentacion{
+    
+        text-align: justify;
+        line-height: 23px;
+        font-size: 17px;
+    
+    }
+
+}
+
+
+
+@media(max-width:1016px){
+
+  
+    .nav-link, .footer-menu a{
+     
+        color:  #6fa744 !important;
+        font-size: 14px;
+        font-weight: bold;
+       
+    }
+    
+
+
+    .inicio_contacto{ 
+
+        
+        color: #ffffff !important;
+        background-color:#6fa744;
+        
+    }
+
+
+    
+
+}
+
+
+@media(max-width:991px){
+
+    .principal{
+    
+        width: 90%;
+        margin: 0px auto;
+        margin-top: 30px;
+        border:none;
+        box-shadow:none;
+    }
+    .menu_navegacion{
+
+       
+        justify-content:start;
+      
+    
+    }
+    
+    .menu_navegacion img{
+    
+        width: 18px;
+        height: 18px;
+        
+    
+    }
+
+      
+    .menu_navegacion a{
+        
+        margin-left: 3px;
+       
+        
+    
+    }
+  
+  
+    .nav-link, .footer-menu a{
+     
+        color:  #6fa744 !important;
+        font-size: 15px;
+        font-weight: bold;
+        
+    }
+    
+
+
+    .inicio_contacto{ 
+
+      
+        color: #ffffff !important;
+        background-color:#6fa744;
+        
+    }
+
+
+    #selector{
+        
+        left: 86%;
+       
+       
+        
+        
+    }
+    
+    #selector img
+    {
+        width: 140px;
+        
+        
+    }
+
+    .aseguradoras img{
+
+        width: 120px;
+        height: auto;
+        
+    }
+    
+
+    .button_ayuda{
+
+        font-size: 15px;
+       
+    }
+    
+
+    .card img{
+        width: 50px;
+
+    }
+
+    .descuento{
+
+       position: absolute;
+       left: 80px;
+       
+    }
+    
+    #descuento_h4{
+
+       margin-top: 79px;
+       
+    }
+   
+
+
+}
+
+
+@media(max-width:767px){
+
+    .presentacion h2{
+
+        margin-top: 15px;
+    }
+  
+
+    .slider_responsive{
+
+        display: none;
+    }
+
+        
+    .companias{
+
+        margin-bottom: 20px;
+        margin-top: 100px;
+    }
+
+    #contenedor_aseguradoras{
+        
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        
+    }
+
+    .aseguradoras img{
+
+        width: 150px;
+        height: auto;
+        
+    }
+
+    .testimonios_usuarios{
+
+        text-align: center;
+    }
+
+
+        
+    .card{
+        
+        width: 97%;
+        height: auto;
+        margin: 0px auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center ;
+        align-items: center;
+        background-color: #f8f8f8;
+        align-self: center;
+        
+        
+    }
+
+    .card h4,.card h2{
+
+        font-weight: bold;
+    }
+
+
+    .card img{
+        width: 50px;
+
+    }
+
+    .grua{
+
+        margin-top: 10px;
+    }
+
+   
+
+    .descuento{
+
+        position: initial;
+
+        margin-bottom: -70px;
+        
+       
+        
+     }
+    
+    .portatil{
+
+        margin-top: 20px;
+    }
+
+        
+    footer .card{
+        
+        
+        height: 365px;
+      
+    }
+
+    
+    
+    .logo_footer{
+        
+        width: 17%;
+    }
+    
+  
+
+    small{
+
+        font-size: 12px;
+        
+    }
+    #selector{
+      
+        left: 81%;
+       
+        
+    }
+    
+    #selector img
+    {
+        width: 125px;
+       
+        
+    }
+    header .menu_logo h1{ 
+   
+        font-size: 17px;
+    
+    }
+
+    
+
+    header .menu_logo img{
+    
+        width: 100px;
+        
+    }
+    .carousel-item p{
+
+        font-size: 17px;
+    }
+
+   
+
+
+}
+
+
+@media(max-width:445px){
+
+   
+
+    
+    .carousel-item p{
+
+        font-size: 13px;
+    }
+
+    .list-inline-item ion-icon{
+
+        font-size: 15px;
+    }
+
+
+    .control_button{
+
+       width: 38px;
+    }
+
+
+    .tfno_contacto p{
+
+        font-size: 20px;
+    }
+
+
+}
+
+
+
+@media(max-width:421px){
+
+    
+    header .menu_logo h1{ 
+   
+        font-size: 15px;
+        
+    }
+
+        
+    header .menu_logo img{
+        
+        width: 80px;
+        
+    }
+
+    .tfno_contacto p{
+
+        font-size: 18px;
+    }
+    .inicio_contacto{
+
+        font-size: 12px;
+    }
+
+    .carousel-item p{
+
+        font-size: 13px;
+    }
+
+    .list-inline-item ion-icon{
+
+        font-size: 12px;
+    }
+
+
+    .control_button{
+
+       width: 30px;
+    }
+
+   
+    .footer-menu a{
+
+        font-size: 12px;
+    }
+
+    small{
+
+        font-size: 10px;
+    }
+
+    #selector{
+        
+        left: 79%;
+       
+        
+    }
+    
+    #selector img
+    {
+        width: 110px;
+        
+        
+    }
+
+
+    
+    
+    .logo_footer{
+        
+        width: 15%;
+    }
+    
+  
+
+}
+
+@media(max-width:365px){
+
+
+    #mariposa_logo{
+
+       display: flex;
+       flex-direction: column;
+       flex-wrap: wrap;
+       margin: 0px auto;
+        
+      
+    }
+    
+    header .menu_logo h1{ 
+   
+        font-size: 14px;
+        
+    }
+
+        
+    header .menu_logo img{
+        
+        width: 80px;
+        
+    }
+
+    .tfno_contacto p{
+
+        font-size: 16px;
+    }
+   
+    #selector{
+        
+        left: 77%;
+       
+        
+    }
+    
+    #selector img
+    {
+        width: 110px;
+        
+        
+    }
+
+    .tfno_contacto p{
+
+        font-size: 15px;
+    }
+    
+    .list-inline .list-inline-item{
+    
+        padding: 2px;
+        
+        
+    
+    }
+    
+    
+
+}
+
+

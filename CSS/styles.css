@@ -826,19 +826,11 @@ textarea {
        
         
     }
-    header .menu_logo h1{ 
-   
-        font-size: 17px;
     
-    }
 
     
 
-    header .menu_logo img{
-    
-        width: 100px;
-        
-    }
+ 
     .carousel-item p{
 
         font-size: 17px;
@@ -849,15 +841,22 @@ textarea {
 
 }
 
-@media(max-width:551px){
+@media(max-width:502px){
 
-    .menu_logo_responsive{
+    #mariposa_logo h1{
 
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
+        font-size: 18px;
     }
+
+    #mariposa_logo img{
+
+        width: 100px;
+    }
+    
+    
 }
+
+
 @media(max-width:445px){
 
    
@@ -889,22 +888,22 @@ textarea {
 }
 
 
+@media(max-width:430px){
+    #mariposa_logo h1{
 
+        font-size: 15px;
+    }
+
+    #mariposa_logo img{
+
+        width: 80px;
+    }
+    
+}
 @media(max-width:421px){
 
     
-    header .menu_logo h1{ 
    
-        font-size: 15px;
-        
-    }
-
-        
-    header .menu_logo img{
-        
-        width: 80px;
-        
-    }
 
     .tfno_contacto p{
 
@@ -977,14 +976,14 @@ textarea {
       
     }
     
-    header .menu_logo h1{ 
+    #menu_logo h1{ 
    
         font-size: 14px;
         
     }
 
         
-    header .menu_logo img{
+    #mariposa_log img{
         
         width: 80px;
         

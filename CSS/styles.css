@@ -874,7 +874,15 @@ textarea {
 
 }
 
+@media(max-width:551px){
 
+    .menu_logo_responsive{
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+}
 @media(max-width:445px){
 
    

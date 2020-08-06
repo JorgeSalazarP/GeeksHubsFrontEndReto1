@@ -90,7 +90,7 @@ header .menu_logo img{
     justify-content: space-around;
     padding: 5px;
     margin: 15px;
-    transition: all 400ms;
+    transition: all 300ms;
     
    
 }
@@ -119,15 +119,6 @@ header .menu_logo img{
 }
 
 
-.inicio_contacto{ 
-
-    text-decoration: none;
-    font-size: 17px;
-    font-weight: bold;
-    color: #ffffff !important;
-    background-color:#6fa744;
-    
-}
 
 
 /*************SLIDER****************/
@@ -536,21 +527,15 @@ textarea {
   
     .nav-link, .footer-menu a{
      
-        color:  #6fa744 !important;
+  
         font-size: 15px;
-        font-weight: bold;
+      
        
     }
     
 
 
-    .inicio_contacto{ 
-
-      
-        color: #ffffff !important;
-        background-color:#6fa744;
-        
-    }
+   
 
 
     #selector{
@@ -586,28 +571,32 @@ textarea {
 
 }
 
+@media(max-width:1036px){
+    .menu_navegacion a{
+        
+    
+        font-size: 13px;
+    
+    
+    }
+
+}
 
 
+
+  
 @media(max-width:1016px){
 
   
     .nav-link, .footer-menu a{
      
-        color:  #6fa744 !important;
+        
         font-size: 14px;
-        font-weight: bold;
+       
        
     }
     
 
-
-    .inicio_contacto{ 
-
-        
-        color: #ffffff !important;
-        background-color:#6fa744;
-        
-    }
 
 
     
@@ -661,13 +650,6 @@ textarea {
     
 
 
-    .inicio_contacto{ 
-
-      
-        color: #ffffff !important;
-        background-color:#6fa744;
-        
-    }
 
 
     #selector{
@@ -935,11 +917,7 @@ textarea {
 
         font-size: 18px;
     }
-    .inicio_contacto{
-
-        font-size: 12px;
-    }
-
+  
     .carousel-item p{
 
         font-size: 13px;

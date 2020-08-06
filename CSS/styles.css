@@ -533,17 +533,10 @@ textarea {
        
     }
     
-
-
-   
-
-
     #selector{
        
         left: 88%;
-       
-       
-        
+    
         
     }
     
@@ -569,6 +562,16 @@ textarea {
     
     }
 
+    .card button{
+
+      
+      font-size: 17px;
+    }
+    .card .portatil{
+
+      
+        margin-top: -25px;
+      }
 }
 
 @media(max-width:1036px){
@@ -585,16 +588,6 @@ textarea {
 
 
   
-@media(max-width:1016px){
-
-  
-    
-
-
-
-    
-
-}
 
 
 @media(max-width:991px){
@@ -635,29 +628,29 @@ textarea {
   
     .nav-link, .footer-menu a{
      
-        color:  #6fa744 !important;
+        
         font-size: 15px;
-        font-weight: bold;
+     
         
     }
     
+    .card .portatil{
 
+      
+        margin-top: 0px;
+    }
 
 
 
     #selector{
         
         left: 86%;
-       
-       
-        
         
     }
     
     #selector img
     {
         width: 140px;
-        
         
     }
 
@@ -786,10 +779,13 @@ textarea {
         
      }
     
-    .portatil{
+    .card .portatil{
 
-        margin-top: 20px;
+      
+        margin-top: 15px;
     }
+
+  
 
         
     footer .card{

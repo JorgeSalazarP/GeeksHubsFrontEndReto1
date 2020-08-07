@@ -15,6 +15,7 @@ body{
     margin-top: 30px;
 }
 
+/***************HEIGHT DE LA PÁGINA CONTACTO***************/
 .contacto{
 
     height: 1890px;
@@ -22,6 +23,8 @@ body{
     
 }
 
+
+/***************HEIGHT DE LA PÁGINA SOBRE MÍ***************/
 .quien_soy{
 
     height: 1300px;
@@ -29,7 +32,7 @@ body{
 }
 
 
-/*********************HEADER*********************/
+/*********************HEADER**********************************/
 
 header{
    
@@ -38,7 +41,7 @@ header{
 
 #navbar{
 
-    background-color:#f8f8f8;/*LE DAMOS COLOR AL MENÚ*/
+    background-color:#f8f8f8;/*LE DAMOS COLOR AL MENÚ Y DAMOS EL BORDE*/
     background-clip: border-box;
     border: 1px solid rgba(0,0,0,.125);
     border-radius: .25rem;
@@ -161,7 +164,7 @@ header .menu_logo img{
     letter-spacing: 1.7px;
     font-weight: bold;
 }
-
+/******************SECCIÓN TFNO DE CONTACTO**************************/
 .tfno_contacto{
 
     font-family: sans-serif;
@@ -181,7 +184,7 @@ header .menu_logo img{
     
     
 }
-
+/********************SECCIÓN TARJETAS DE AYUDA*****************************/
 .card{
     
     width: 97%;
@@ -230,7 +233,7 @@ header .menu_logo img{
     box-shadow: 1px 1px 4px #ccc inset;
 }
 
-
+/****************************SECCIÓN COMPAÑÍAS************************************/
 .companias{
 
     margin-bottom: 20px;
@@ -270,7 +273,7 @@ header .menu_logo img{
     
 }
 
-
+/***********TÍTULO DE LAS TARJETAS****************************/
 #header_aseguradoras{
 
     grid-column: 1/6;
@@ -300,7 +303,7 @@ header .menu_logo img{
   
 }
 
-
+/*************************SECCIÓN TESTIMONIOS*************************************/
 .carousel{
 
     min-width: 240px;
@@ -373,7 +376,7 @@ header .menu_logo img{
    font-size: 12px;
 }
 
-
+/*********************************FOOTER***************************************/
 
 footer{
     
@@ -416,7 +419,7 @@ footer{
 }
 
 
-
+/***********************************WHATSAPP*********************************/
 
 #selector{
     display: flex;
@@ -436,7 +439,7 @@ footer{
 	
 }
 
-
+/***************************PAGÍNA CONTACTO*********************************/
 
 
 #formulario .card{
@@ -467,13 +470,14 @@ iframe{
    
 }
 
+/*NO SE PUEDE HACER MÁS GRANDE EL TEXTAREA**/
 textarea {
     
     resize: none;
 }
 
 
-
+/***************************PÁGINA SOBRE MÍ************************/
 #sobre_mi img{
 
     width: 100%;
@@ -504,7 +508,7 @@ textarea {
 }
 
 
-/**********RESPONSIVE***************/
+/*********************************RESPONSIVE****************************************/
 
 @media(max-width:1199px){
 
@@ -597,7 +601,7 @@ textarea {
         width: 90%;
         margin: 0px auto;
         margin-top: 30px;
-        border:none;
+        border:none;  /*quitamos el borde del container principal de la página*/
         box-shadow:none;
     }
     .menu_navegacion{
@@ -962,7 +966,7 @@ textarea {
 @media(max-width:365px){
 
 
-    #mariposa_logo{
+    #mariposa_logo{ /*Ponemos el h1 debajo del logo*/
 
        display: flex;
        flex-direction: column;
